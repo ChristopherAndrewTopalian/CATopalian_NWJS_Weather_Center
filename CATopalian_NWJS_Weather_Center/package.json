@@ -1,0 +1,20 @@
+{
+  "name": "catopalian-nwjs-weather-center",
+  "version": "1.0.0",
+  "description": "Weather and Environmental Data",
+  "main": "./CATopalian_NWJS_Weather_Center.html",  
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nw ."
+  },
+  "window": {
+      "width": 800,
+      "height": 600,
+      "icon": "src/media/textures/icons/catopalian_true_ai.png"
+  },
+  "keywords": [],
+  "author": "Christopher Andrew Topalian",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {}
+}
