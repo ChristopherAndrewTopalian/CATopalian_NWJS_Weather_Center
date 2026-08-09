@@ -20,13 +20,13 @@ copy /b nw.exe+package.nw app.exe
 That literally glues the two files together into one binary. NW.js is built to look for appended zip data at the end of its own exe, so this isn't a hack - it's the documented way to do it.
 
 **Step 6 - Package the whole folder**
-Take that new `app.exe` and put it back with all the companion files from Step 1 (the dlls, `nw.pak`, `locales`, etc. - just swap the old `nw.exe` out for your new `app.exe`). Zip that whole folder — *that's* your distributable. The recipient just unzips it and double-clicks `app.exe`.
+Take that new `app.exe` and put it back with all the companion files from Step 1 (the dlls, `nw.pak`, `locales`, etc. - just swap the old `nw.exe` out for your new `app.exe`). Zip that whole folder - *that's* your distributable. The recipient just unzips it and double-clicks `app.exe`.
 
 Optional polish:
 - Swap the default NW.js icon for your own using **Resource Hacker**.
 - Wrap it in an installer (Inno Setup or NSIS) if you want Start Menu shortcuts and a proper uninstaller, though it'll run fine without one.
 
-**If you don't want to do this by hand every time**, there's an npm tool called **`nw-builder`** that automates the whole thing — it downloads the correct NW.js flavor for each OS you target, zips your app, and spits out ready-to-ship folders for Windows/Mac/Linux with one command. Worth switching to once you're bundling regularly, but the manual version above is exactly what it's doing under the hood.
+**If you don't want to do this by hand every time**, there's an npm tool called **`nw-builder`** that automates the whole thing - it downloads the correct NW.js flavor for each OS you target, zips your app, and spits out ready-to-ship folders for Windows/Mac/Linux with one command. Worth switching to once you're bundling regularly, but the manual version above is exactly what it's doing under the hood.
 
 ---
 
