@@ -12,6 +12,8 @@ REQUIREMENTS:
 
 ---
 
+Video: https://www.youtube.com/watch?v=Sl2rF3Jqf5c
+
 ![001](CATopalian_NWJS_Weather_Center/src/media/textures/screenshots/001.webp)
 
 ![002](CATopalian_NWJS_Weather_Center/src/media/textures/screenshots/002.webp)
