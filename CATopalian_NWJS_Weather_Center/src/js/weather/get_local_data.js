@@ -51,7 +51,7 @@ function get_local_data(zip_code)
 
             // SUN POSITION updates slider
             let now = new Date();
-            let hour = now.getHours() + 1; // returns an integer from 1 to 24
+            let hour = now.getHours();
             ge('sunSlider').value = hour;
 
             // sunrise
