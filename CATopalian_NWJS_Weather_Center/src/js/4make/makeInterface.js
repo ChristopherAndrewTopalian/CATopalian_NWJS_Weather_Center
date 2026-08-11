@@ -14,7 +14,7 @@ function makeInterface()
     sunSlider.type = 'range';
     sunSlider.id = 'sunSlider';
     sunSlider.min = 0;
-    sunSlider.max = 24;
+    sunSlider.max = 23;
     sunSlider.value = 0;
     sunSlider.style.width = '100%';
     ba(sunSlider);
